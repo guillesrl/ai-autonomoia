@@ -60,8 +60,8 @@ export function Footer() {
                 textTransform: 'uppercase', color: 'var(--fg-tertiary)', marginBottom: 16,
               }}>Legal</div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                <a href="#" style={footerLink}>Aviso legal</a>
-                <a href="#" style={footerLink}>Privacidad</a>
+                <a href="/aviso-legal" style={footerLink}>Aviso legal</a>
+                <a href="/privacidad" style={footerLink}>Privacidad</a>
               </div>
             </div>
           </div>

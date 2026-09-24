@@ -144,6 +144,21 @@ export function ContactForm() {
                   <option>Otro</option>
                 </select>
               </div>
+              <label style={{
+                display: 'flex', alignItems: 'flex-start', gap: 10, marginBottom: 24,
+                fontSize: 13, lineHeight: 1.5, color: 'var(--fg-secondary)', cursor: 'pointer',
+              }}>
+                <input
+                  name="privacyAccepted"
+                  type="checkbox"
+                  value="accepted"
+                  required
+                  style={{ width: 16, height: 16, marginTop: 2, accentColor: 'var(--color-blue-600)', flexShrink: 0 }}
+                />
+                <span>
+                  He leído y acepto la <a href="/privacidad" style={{ color: 'var(--fg-accent)', fontWeight: 600 }}>política de privacidad</a>.
+                </span>
+              </label>
               <button type="submit" disabled={loading}
                 style={{
                   width: '100%', background: 'var(--action-primary)', color: 'var(--action-primary-text)',

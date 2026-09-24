@@ -67,6 +67,9 @@ body {
   color: var(--fg-secondary);
   line-height: 1.5;
 }
+.legal-page h2 { color: var(--fg-primary); font-size: 21px; line-height: 1.25; margin-bottom: 10px; }
+.legal-page p { color: var(--fg-secondary); font-size: 16px; line-height: 1.7; margin-bottom: 14px; }
+.legal-page a, footer a { color: var(--fg-accent); }
 ::selection { background: rgba(9, 96, 174, 0.20); color: var(--fg-primary); }
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: var(--bg-page); }
