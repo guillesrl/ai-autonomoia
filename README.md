@@ -2,7 +2,7 @@
 
 Landing page de [guillers.es](https://guillers.es): servicio de automatizaciones IA y asistentes conversacionales por WhatsApp para PYMES.
 
-> Comprobación de autodespliegue en Easypanel: 24 de septiembre de 2026.
+> Comprobación de autodespliegue seguro en Easypanel: 24 de septiembre de 2026.
 
 ## Stack
 
