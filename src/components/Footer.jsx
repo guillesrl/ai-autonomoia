@@ -71,7 +71,7 @@ export function Footer() {
           paddingTop: 24, fontSize: 13, color: 'var(--fg-tertiary)',
           display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12,
         }}>
-          <div>© 2026 Automatizaciones IA. Todos los derechos reservados.</div>
+          <div>© 2026 Autonomo IA. Todos los derechos reservados.</div>
           <div>Hecho con ❤ en Andorra</div>
         </div>
       </div>
