@@ -37,25 +37,48 @@ function Layout({ title, updated, children }) {
 const Section = ({ title, children }) => <section style={{ padding: 0, marginBottom: 30 }}><h2>{title}</h2>{children}</section>;
 
 export function PrivacyPage() {
-  return <Layout title="Política de privacidad" updated="24 de septiembre de 2026">
-    <p>En Autonomo IA tratamos los datos personales con responsabilidad y únicamente para atender tu solicitud y ofrecer nuestros servicios de automatización.</p>
+  return <Layout title="Política de privacidad" updated="5 de octubre de 2026">
+    <p>En Autonomo IA tratamos los datos personales con responsabilidad y únicamente para atender tu solicitud, preparar una auditoría o propuesta y prestar nuestros servicios de automatización. Esta política se aplica al sitio <a href="https://guillers.es">guillers.es</a> y se interpreta conforme a la <strong>Llei 29/2021, del 28 d’octubre, qualificada de protecció de dades personals</strong> del Principado de Andorra.</p>
     <Section title="1. Responsable del tratamiento">
-      <p><strong>Responsable:</strong> Autonomo IA<br /><strong>Contacto:</strong> <a href="mailto:guillesrl@gmail.com">guillesrl@gmail.com</a><br /><strong>Teléfono:</strong> <a href="tel:+376615808">+376 615 808</a><br /><strong>Ubicación:</strong> Andorra</p>
+      <p><strong>Responsable:</strong> Autonomo IA<br /><strong>Contacto:</strong> <a href="mailto:guillesrl@gmail.com">guillesrl@gmail.com</a><br /><strong>Teléfono:</strong> <a href="tel:+376615808">+376 615 808</a><br /><strong>Domicilio:</strong> Andorra</p>
+      <p>La identificación legal completa y el número de registro tributario se incorporarán a esta política cuando estén disponibles.</p>
     </Section>
     <Section title="2. Datos que recogemos">
-      <p>Cuando completas el formulario podemos tratar tu nombre, correo electrónico, teléfono, sector profesional y el contenido que nos comuniques. También pueden tratarse datos técnicos imprescindibles para el funcionamiento y seguridad del sitio.</p>
+      <p>En el formulario de contacto podemos tratar tu nombre, correo electrónico, teléfono, sector profesional, aceptación de esta política y la información que nos envíes. El formulario añade datos técnicos de la solicitud, como la fecha y hora, el origen del formulario y los identificadores necesarios para gestionar el envío.</p>
+      <p>El sitio puede recibir o registrar, cuando sea técnicamente necesario para su funcionamiento y seguridad, la dirección IP, navegador, sistema operativo, dispositivo, idioma, página de procedencia y registros de errores o accesos. Google Analytics 4 está configurado en modo sin almacenamiento en el dispositivo, sin cookies de analítica y con la IP anonimizada.</p>
     </Section>
-    <Section title="3. Finalidad y base jurídica">
-      <p>Usamos estos datos para responder a tu consulta, preparar una auditoría o propuesta solicitada y mantener las comunicaciones necesarias sobre ella. La base jurídica es tu consentimiento al enviar el formulario y, cuando corresponda, la aplicación de medidas precontractuales solicitadas por ti.</p>
+    <Section title="3. WhatsApp, inteligencia artificial y automatizaciones">
+      <p>El sitio incluye un enlace para contactar por WhatsApp. Al utilizarlo, la comunicación se realiza directamente mediante WhatsApp y queda sujeta a la política de privacidad de Meta/WhatsApp y a la configuración de tu dispositivo. No tenemos acceso a los datos de tu cuenta de WhatsApp que no nos comuniques voluntariamente.</p>
+      <p>El formulario de esta web envía los datos facilitados al webhook de n8n utilizado para recibir y gestionar solicitudes. Actualmente la web no incorpora un chatbot de IA propio ni ejecuta conversaciones de IA dentro de la página. Si solicitas nuestros servicios, podremos tratar mensajes, números de teléfono, datos de agenda, consultas y otra información necesaria para configurar, mantener o dar soporte a automatizaciones, asistentes de IA, WhatsApp, CRM, calendarios y otras herramientas que se acuerden contigo.</p>
+      <p>Cuando una automatización utilice un proveedor de IA o una herramienta externa, el tratamiento se realizará únicamente en la medida necesaria para prestar el servicio y conforme a la configuración y condiciones del proyecto correspondiente.</p>
     </Section>
-    <Section title="4. Conservación y destinatarios">
-      <p>Conservaremos los datos durante el tiempo necesario para atender la solicitud y cumplir las obligaciones legales aplicables. No vendemos tus datos ni los cedemos a terceros salvo a proveedores necesarios para prestar el servicio —como alojamiento, correo o automatización—, bajo las garantías y contratos exigibles.</p>
+    <Section title="4. Finalidades y bases jurídicas">
+      <p>Usamos los datos para responder a tu consulta, preparar una auditoría o propuesta, mantener las comunicaciones necesarias, gestionar la relación comercial, prestar soporte y proteger la seguridad del sitio y de nuestros sistemas.</p>
+      <p>La base jurídica es tu consentimiento al enviar el formulario, la aplicación de medidas precontractuales solicitadas por ti, el interés legítimo en mantener la seguridad y gestionar la relación profesional y, cuando corresponda, el cumplimiento de obligaciones legales.</p>
     </Section>
-    <Section title="5. Tus derechos">
-      <p>Puedes solicitar acceso, rectificación, supresión, oposición, limitación del tratamiento o portabilidad de tus datos escribiendo a <a href="mailto:guillesrl@gmail.com">guillesrl@gmail.com</a>. Si consideras que el tratamiento no se ajusta a la normativa aplicable, puedes presentar una reclamación ante la autoridad de protección de datos competente.</p>
+    <Section title="5. Proveedores y destinatarios">
+      <p>No vendemos ni alquilamos tus datos. Podemos comunicarlos a proveedores que actúan por nuestra cuenta y solo en la medida necesaria para prestar el servicio: alojamiento y despliegue de la web, recepción y automatización de formularios mediante n8n, correo electrónico, analítica web sin cookies, comunicación mediante WhatsApp/Meta y herramientas de IA, agenda, CRM o soporte que se contraten o configuren para un proyecto.</p>
+      <p>Estos proveedores deben aplicar las garantías y contratos exigibles. En la actualidad, el formulario de la web utiliza un webhook de n8n autoalojado en <a href="https://n8n.guillers.es">n8n.guillers.es</a> y la web utiliza Google Analytics 4 en modo cookieless. Las fuentes tipográficas se cargan desde Google Fonts. Los enlaces externos, como WhatsApp, quedan sujetos a sus propios responsables y políticas.</p>
     </Section>
-    <Section title="6. Seguridad y cambios">
-      <p>Aplicamos medidas técnicas y organizativas razonables para proteger la información. Esta política puede actualizarse para reflejar cambios legales, técnicos o de servicio; la fecha de actualización indicará la versión vigente.</p>
+    <Section title="6. Transferencias internacionales">
+      <p>Algunos proveedores tecnológicos, incluidos Google, Meta/WhatsApp o determinados proveedores de IA y software utilizados en proyectos, pueden tratar datos fuera de Andorra o del Espacio Económico Europeo. Cuando exista una transferencia internacional, se aplicarán las garantías previstas por la normativa aplicable, como decisiones de adecuación, cláusulas contractuales tipo u otras medidas legalmente válidas.</p>
+      <p>El enlace de WhatsApp y las herramientas externas solo se activan o utilizan según la interacción del usuario o la configuración del servicio contratado. No transferimos datos a proveedores de IA desde esta página salvo que sean necesarios para un servicio solicitado y configurado.</p>
+    </Section>
+    <Section title="7. Conservación de los datos">
+      <p>Los datos enviados mediante el formulario se conservarán durante un máximo de 24 meses desde la última comunicación relacionada con la solicitud, salvo que exista una relación contractual, una obligación legal o una reclamación que justifique conservarlos durante más tiempo.</p>
+      <p>Los datos necesarios para la relación contractual, facturación o defensa de derechos se conservarán durante los plazos legales aplicables. Los registros técnicos y de seguridad se conservarán durante un máximo de 12 meses, salvo que sea necesario conservarlos para investigar un incidente. Las comunicaciones de soporte y de herramientas de automatización se eliminarán o anonimizarán cuando dejen de ser necesarias y, como criterio general, en un plazo máximo de 12 meses desde la última interacción.</p>
+    </Section>
+    <Section title="8. Cookies y tecnologías similares">
+      <p>Esta web no utiliza cookies propias de seguimiento ni de publicidad. Google Analytics 4 está configurado sin almacenamiento en el dispositivo, con el consentimiento analítico denegado por defecto, sin Google Signals y con la dirección IP anonimizada. Por ello no se utiliza un banner para cookies no necesarias.</p>
+      <p>El navegador puede realizar conexiones técnicas a servicios externos, como Google Fonts, y los enlaces a terceros pueden establecer sus propias cookies cuando abandonas esta web. Puedes configurar tu navegador para bloquear o eliminar cookies; algunas funciones externas podrían verse afectadas.</p>
+    </Section>
+    <Section title="9. Tus derechos">
+      <p>Puedes solicitar acceso, rectificación, supresión, oposición, limitación del tratamiento o portabilidad escribiendo a <a href="mailto:guillesrl@gmail.com">guillesrl@gmail.com</a>. También puedes retirar el consentimiento cuando el tratamiento se base en él. Podremos pedir información adicional únicamente cuando sea necesario para verificar tu identidad.</p>
+      <p>Si consideras que el tratamiento no se ajusta a la normativa, puedes presentar una reclamación ante la <a href="https://www.apda.ad/" target="_blank" rel="noreferrer">Agència Andorrana de Protecció de Dades (APDA)</a>.</p>
+    </Section>
+    <Section title="10. Seguridad y cambios">
+      <p>Aplicamos medidas técnicas y organizativas razonables, incluido el uso de HTTPS, controles de acceso y medidas de protección del alojamiento y de los sistemas que intervienen en la gestión de solicitudes. Ningún sistema conectado a internet puede garantizar una seguridad absoluta.</p>
+      <p>Esta política puede actualizarse para reflejar cambios legales, técnicos, de proveedores o de servicio. La fecha de actualización indicará la versión vigente.</p>
     </Section>
   </Layout>;
 }
