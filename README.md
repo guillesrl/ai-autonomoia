@@ -59,7 +59,7 @@ VITE_N8N_WEBHOOK_URL=https://n8n.guillers.es/webhook/contacto-landing
 
 ## Analytics
 
-Google Analytics 4 configurado en modo cookieless: `client_storage: 'none'`, `consent default denied`, IP anonimizada. No requiere banner de cookies.
+El código de Google Analytics 4 solicita un modo sin almacenamiento: `client_storage: 'none'` y `consent default denied`. El script se carga y puede enviar señales de medición. Esta configuración no acredita anonimato ni exención de consentimiento; queda pendiente comprobar las conexiones y el almacenamiento real y documentar la base jurídica de la analítica.
 
 Eventos custom trackados:
 - `generate_lead` al recibir respuesta 2xx del webhook

@@ -156,7 +156,7 @@ export function ContactForm() {
                   style={{ width: 16, height: 16, marginTop: 2, accentColor: 'var(--color-blue-600)', flexShrink: 0 }}
                 />
                 <span>
-                  He leído y acepto la <a href="/privacidad" style={{ color: 'var(--fg-accent)', fontWeight: 600 }}>política de privacidad</a>.
+                  He leído la <a href="/privacidad" style={{ color: 'var(--fg-accent)', fontWeight: 600 }}>política de privacidad</a> y la información sobre el tratamiento de mi solicitud.
                 </span>
               </label>
               <button type="submit" disabled={loading}
