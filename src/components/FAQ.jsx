@@ -5,15 +5,15 @@ export function FAQ() {
   const [open, setOpen] = React.useState(0);
   const items = [
     { q: '¿Cuánto tiempo tarda en estar operativo?',
-      a: 'Habitualmente, <strong>48 horas desde la firma</strong>. Realizamos una auditoría inicial, configuramos las integraciones (WhatsApp Business, Calendar, CRM) y desplegamos el asistente. En la mayoría de casos está respondiendo clientes reales en menos de 72 horas.' },
+      a: 'El plazo depende del alcance, las integraciones y los accesos disponibles. Tras la auditoría acordamos la fecha de puesta en marcha para tu proyecto.' },
     { q: '¿Se integra con el software que ya uso?',
-      a: 'Sí. Soportamos las herramientas más comunes — Google Calendar, Calendly, Outlook, Stripe, n8n, Make, HubSpot, Notion y prácticamente cualquier herramienta con API. Durante la auditoría revisamos tu stack y confirmamos las integraciones necesarias.' },
+      a: 'Revisamos tus herramientas y confirmamos la viabilidad de cada conexión durante la auditoría. Podemos estudiar WhatsApp Business, calendarios, CRM y servicios con API, según sus permisos y condiciones.' },
     { q: '¿Y si mi negocio tiene procesos muy específicos?',
       a: 'Es exactamente lo que hacemos. No vendemos un producto cerrado — diseñamos cada sistema a medida según tus reglas de negocio, tu tono de marca y la casuística real de tus clientes. Cuanto más específico, mejor encaje tendrá.' },
     { q: '¿Cuánto cuesta?',
-      a: 'Depende del alcance — número de integraciones, volumen de mensajes, complejidad de los flujos. Tras la auditoría gratuita te enviamos una propuesta cerrada con precio fijo. No hay sorpresas ni cargos por uso.' },
+      a: 'Depende del alcance, las integraciones, el volumen y el soporte. Tras la auditoría gratuita preparamos una propuesta con el precio y las condiciones del proyecto.' },
     { q: '¿Qué pasa si quiero dejarlo?',
-      a: 'Te entregamos toda la documentación y los flujos para que tu equipo (o cualquier desarrollador) pueda mantenerlo. Sin contratos de permanencia, sin vendor lock-in.' },
+      a: 'La entrega de documentación y flujos, el mantenimiento y la duración del servicio se especifican en la propuesta y el contrato de cada proyecto.' },
   ];
 
   return (
