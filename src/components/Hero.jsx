@@ -38,14 +38,14 @@ export function Hero() {
               fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.035em',
               color: 'white', marginBottom: 20,
             }}>
-              Duplica tus Clientes{' '}
+              Atiende a Más Clientes{' '}
               <span style={{
                 background: 'linear-gradient(120deg, #64A6E3 0%, #8FBFEC 50%, #B8D1E7 100%)',
                 WebkitBackgroundClip: 'text',
                 backgroundClip: 'text',
                 color: 'transparent',
                 fontWeight: 800,
-              }}>Sin Trabajar Más Horas</span>
+              }}>Sin Alargar tu Jornada</span>
             </h1>
             <p className="hero-sub" style={{
               color: 'rgba(255,255,255,0.65)',
@@ -140,7 +140,7 @@ function ChatPreview() {
             <div style={{ fontSize: 14, fontWeight: 600, color: 'white' }}>Asistente Autonomo IA</div>
             <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.55)', display: 'flex', alignItems: 'center', gap: 5, marginTop: 2 }}>
               <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-success)' }}></span>
-              Activo · Responde en &lt; 1s
+              Ejemplo de conversación
             </div>
           </div>
           <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.45)', fontFamily: 'var(--font-mono)' }}>WhatsApp</div>
