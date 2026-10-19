@@ -5,8 +5,7 @@ import { Stats } from './components/Stats.jsx';
 import { FAQ } from './components/FAQ.jsx';
 import { ContactForm } from './components/ContactForm.jsx';
 import { Footer, Logo } from './components/Footer.jsx';
-import { AnalyticsConsent } from './components/AnalyticsConsent.jsx';
-import { track } from './analytics.js';
+
 
 function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
@@ -56,7 +55,7 @@ function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"
-      onClick={() => track('whatsapp_click', { event_category: 'contact', event_label: 'floating_button' })}
+
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
@@ -101,7 +100,6 @@ export default function App() {
       <FAQ />
       <ContactForm />
       <Footer />
-      <AnalyticsConsent />
       <WhatsAppButton />
     </>
   );

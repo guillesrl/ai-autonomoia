@@ -9,7 +9,7 @@ Landing page de [guillers.es](https://guillers.es): servicio de automatizaciones
 - React 18 + Vite 6
 - ES modules, sin framework CSS (CSS custom properties + inline styles)
 - Tipografías: fuentes del sistema (sin Google Fonts)
-- Analytics: Google Analytics 4 solo tras consentimiento explícito
+- Analytics: no instalado; se utiliza Google Search Console fuera de la web para SEO
 - Formulario: webhook a n8n self-hosted
 - Deploy: Easypanel (auto-deploy desde GitHub) + alternativa Nginx en VPS
 
@@ -60,14 +60,13 @@ VITE_N8N_WEBHOOK_URL=https://n8n.guillers.es/webhook/contacto-landing
 ## Privacidad y proveedores
 
 - El formulario envía los datos al webhook autoalojado de n8n. La ubicación del servidor, las copias de seguridad, la retención de ejecuciones y los accesos deben mantenerse documentados.
-- Google Analytics 4 no se carga hasta que el visitante acepta la analítica. Si la rechaza, no se solicita el script de Google. La preferencia se guarda localmente y puede cambiarse desde «Configurar analítica» en el pie de página.
+- Google Analytics se eliminó de la web. No se solicita el script de Google ni se recogen métricas de comportamiento dentro de la página.
 - Google Fonts se eliminó para evitar una conexión de terceros antes de una decisión del visitante.
 - WhatsApp/Meta, correo, hosting y cualquier proveedor de IA pueden implicar transferencias internacionales. Antes de usarlos con datos personales hay que registrar país de tratamiento, encargado/subencargados, contrato y mecanismo de transferencia.
 - No se debe publicar aquí ningún token, contraseña ni secreto de autenticación del webhook. El webhook de producción requiere una revisión independiente de su autenticación y del proxy/backend que lo consume.
 
 Eventos custom trackados:
-- `generate_lead` al recibir respuesta 2xx del webhook y haber aceptado analítica
-- `whatsapp_click` al pulsar el botón flotante y haber aceptado analítica
+- No se envían eventos de analítica desde la web.
 
 ## Deploy
 

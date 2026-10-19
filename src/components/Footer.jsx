@@ -1,5 +1,5 @@
 import React from 'react';
-import { setAnalyticsConsent } from '../analytics.js';
+
 
 const footerLink = {
   fontSize: 14, color: 'var(--fg-secondary)',
@@ -63,7 +63,7 @@ export function Footer() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                 <a href="/aviso-legal" style={footerLink}>Aviso legal</a>
                 <a href="/privacidad" style={footerLink}>Privacidad</a>
-                <button type="button" onClick={() => setAnalyticsConsent(null)} style={{ ...footerLink, border: 0, background: 'none', padding: 0, textAlign: 'left', cursor: 'pointer' }}>Configurar analítica</button>
+
               </div>
             </div>
           </div>

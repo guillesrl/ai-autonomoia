@@ -70,15 +70,7 @@ body {
 .legal-page h2 { color: var(--fg-primary); font-size: 21px; line-height: 1.25; margin-bottom: 10px; }
 .legal-page p { color: var(--fg-secondary); font-size: 16px; line-height: 1.7; margin-bottom: 14px; }
 .legal-page a, footer a { color: var(--fg-accent); }
-.analytics-consent { position: fixed; z-index: 1000; left: 20px; right: 20px; bottom: 20px; max-width: 760px; margin: 0 auto; display: flex; gap: 22px; align-items: center; justify-content: space-between; padding: 18px 20px; background: var(--bg-surface); border: 1px solid var(--border-strong); border-radius: 14px; box-shadow: var(--shadow-xl); }
-.analytics-consent h2 { color: var(--fg-primary); font-size: 16px; margin-bottom: 5px; }
-.analytics-consent p { color: var(--fg-secondary); font-size: 13px; line-height: 1.5; max-width: 540px; }
-.analytics-consent a { color: var(--fg-accent); font-weight: 600; }
-.analytics-consent-actions { display: flex; gap: 8px; flex-shrink: 0; }
-.analytics-consent-actions button { border: 0; border-radius: 8px; padding: 10px 12px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
-.analytics-consent-reject { background: var(--bg-elevated); color: var(--fg-primary); }
-.analytics-consent-accept { background: var(--action-primary); color: var(--action-primary-text); }
-@media (max-width: 640px) { .analytics-consent { align-items: stretch; flex-direction: column; gap: 12px; bottom: 12px; } .analytics-consent-actions { justify-content: flex-end; } }
+
 ::selection { background: rgba(9, 96, 174, 0.20); color: var(--fg-primary); }
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: var(--bg-page); }
