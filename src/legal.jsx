@@ -36,7 +36,7 @@ function Layout({ title, updated, children }) {
 const Section = ({ title, children }) => <section style={{ padding: 0, marginBottom: 30 }}><h2>{title}</h2>{children}</section>;
 
 export function PrivacyPage() {
-  return <Layout title="Política de privacidad" updated="7 de octubre de 2026">
+  return <Layout title="Política de privacidad" updated="19 de octubre de 2026">
     <p>En Autonomo IA tratamos los datos personales con responsabilidad y únicamente para atender tu solicitud, preparar una auditoría o propuesta y prestar nuestros servicios de automatización. Esta política se aplica al sitio <a href="https://guillers.es">guillers.es</a> y se interpreta conforme a la <strong>Llei 29/2021, del 28 d’octubre, qualificada de protecció de dades personals</strong> del Principado de Andorra.</p>
     <Section title="1. Responsable del tratamiento">
       <p><strong>Responsable identificado como:</strong> Guillesrl<br /><strong>Nombre del servicio:</strong> Autonomo IA<br /><strong>Contacto:</strong> <a href="mailto:guillesrl@gmail.com">guillesrl@gmail.com</a><br /><strong>Teléfono:</strong> <a href="tel:+376615808">+376 615 808</a><br /><strong>Dirección postal:</strong> Les Canals 4, AD500 Andorra la Vella, Andorra</p>
@@ -44,7 +44,7 @@ export function PrivacyPage() {
     </Section>
     <Section title="2. Datos que recogemos">
       <p>En el formulario de contacto podemos tratar tu nombre, correo electrónico, teléfono, sector profesional, aceptación de esta política y la información que nos envíes. El formulario añade datos técnicos de la solicitud, como la fecha y hora, el origen del formulario y los identificadores necesarios para gestionar el envío.</p>
-      <p>El sitio puede recibir o registrar, cuando sea técnicamente necesario para su funcionamiento y seguridad, la dirección IP, navegador, sistema operativo, dispositivo, idioma, página de procedencia y registros de errores o accesos. El código de Google Analytics 4 solicita un modo sin almacenamiento en el dispositivo y deniega por defecto el almacenamiento analítico y publicitario. Esta configuración no implica que las conexiones a Google sean anónimas ni que no se transmitan datos técnicos.</p>
+      <p>El sitio puede recibir o registrar, cuando sea técnicamente necesario para su funcionamiento y seguridad, la dirección IP, navegador, sistema operativo, dispositivo, idioma, página de procedencia y registros de errores o accesos. No utilizamos Google Analytics ni cargamos Google Fonts desde esta web.</p>
     </Section>
     <Section title="3. WhatsApp, inteligencia artificial y automatizaciones">
       <p>El sitio incluye un enlace para contactar por WhatsApp. Al utilizarlo, la comunicación se realiza directamente mediante WhatsApp y queda sujeta a la política de privacidad de Meta/WhatsApp y a la configuración de tu dispositivo. No tenemos acceso a los datos de tu cuenta de WhatsApp que no nos comuniques voluntariamente.</p>
