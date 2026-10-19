@@ -41,7 +41,7 @@ export function Features() {
       body: 'Recordatorios automáticos por WhatsApp, gestión de reprogramaciones y confirmaciones sin intervención humana.',
       metric: 'Auto', metricLabel: 'confirmaciones y cambios' },
     { icon: 'plato', kicker: 'Restaurantes', title: 'Reservas y consultas resueltas al instante',
-      body: 'Gestiona reservas de mesa, consultas sobre la carta y horarios. Tu equipo deja de coger el teléfono cada 5 minutos.',
+      body: 'Gestiona reservas de mesa, consultas sobre la carta y horarios. Tu equipo puede centrarse en la atención presencial.',
       metric: '24/7', metricLabel: 'disponibilidad' },
   ];
 
@@ -58,7 +58,7 @@ export function Features() {
           </h2>
           <p style={{ fontSize: 18, color: 'var(--fg-secondary)', lineHeight: 1.55 }}>
             No vendemos software genérico. Diseñamos cada sistema para los procesos
-            específicos de tu negocio, integrado con las herramientas que ya usas.
+            específicos de tu negocio, con las integraciones que confirmemos contigo.
           </p>
           <p style={{ fontSize: 13, color: 'var(--fg-muted)', marginTop: 16, display: 'flex', alignItems: 'center', gap: 6 }}>
             <span style={{ color: 'var(--color-success)', fontWeight: 600 }}>✓</span>
