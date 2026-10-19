@@ -2,8 +2,8 @@ import React from 'react';
 
 export function useScrollReveal(delay) {
   const ref = React.useRef(null);
-  const [visible, setVisible] = React.useState(false);
-  const [entered, setEntered] = React.useState(false);
+  const [visible, setVisible] = React.useState(true);
+  const [entered, setEntered] = React.useState(true);
   React.useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
@@ -36,10 +36,10 @@ export function Features() {
   const niches = [
     { icon: 'casa', kicker: 'Inmobiliarias', title: 'Califica y agenda visitas en automático',
       body: 'El asistente filtra prospectos según presupuesto, zona y tipo de propiedad, y agenda las visitas directamente en tu calendario.',
-      metric: '+120%', metricLabel: 'leads cualificados' },
+      metric: 'IA', metricLabel: 'calificación de leads' },
     { icon: 'tijera', kicker: 'Estética & Peluquería', title: 'Reduce las citas perdidas al mínimo',
       body: 'Recordatorios automáticos por WhatsApp, gestión de reprogramaciones y confirmaciones sin intervención humana.',
-      metric: '−90%', metricLabel: 'no-shows' },
+      metric: 'Auto', metricLabel: 'confirmaciones y cambios' },
     { icon: 'plato', kicker: 'Restaurantes', title: 'Reservas y consultas resueltas al instante',
       body: 'Gestiona reservas de mesa, consultas sobre la carta y horarios. Tu equipo deja de coger el teléfono cada 5 minutos.',
       metric: '24/7', metricLabel: 'disponibilidad' },
@@ -62,7 +62,7 @@ export function Features() {
           </p>
           <p style={{ fontSize: 13, color: 'var(--fg-muted)', marginTop: 16, display: 'flex', alignItems: 'center', gap: 6 }}>
             <span style={{ color: 'var(--color-success)', fontWeight: 600 }}>✓</span>
-            Configuración en 48 horas · Sin compromiso
+            Configuración a medida · Sin compromiso
           </p>
         </div>
 
