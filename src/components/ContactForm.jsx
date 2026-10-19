@@ -1,5 +1,6 @@
 import React from 'react';
 import { Kicker } from './Features.jsx';
+import { track } from '../analytics.js';
 
 const formStyles = {
   label: {
@@ -39,13 +40,11 @@ export function ContactForm() {
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       setSent(true);
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', 'generate_lead', {
-          event_category: 'engagement',
-          event_label: data.sector || 'unknown',
-          value: 1,
-        });
-      }
+      track('generate_lead', {
+        event_category: 'engagement',
+        event_label: data.sector || 'unknown',
+        value: 1,
+      });
     } catch (err) {
       setError('No se pudo enviar. Inténtalo de nuevo o escríbenos a guillesrl@gmail.com');
     } finally {
