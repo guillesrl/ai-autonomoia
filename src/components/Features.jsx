@@ -213,8 +213,8 @@ function StepCard({ step, delay }) {
 export function HowItWorks() {
   const steps = [
     { num: '01', title: 'Auditoría gratuita', body: 'En 30 minutos analizamos tus procesos actuales e identificamos las oportunidades de automatización con mayor retorno.' },
-    { num: '02', title: 'Sistema a medida',   body: 'Diseñamos y configuramos el asistente IA integrándolo con tu CRM, agenda, WhatsApp y herramientas existentes.' },
-    { num: '03', title: 'Puesta en marcha',   body: 'Lanzamos el sistema, formamos a tu equipo y te acompañamos durante los primeros 30 días con soporte directo.' },
+    { num: '02', title: 'Sistema a medida',   body: 'Diseñamos y configuramos el asistente IA con las integraciones acordadas tras revisar tus herramientas.' },
+    { num: '03', title: 'Puesta en marcha',   body: 'Ponemos el sistema en marcha, formamos a tu equipo y acordamos el soporte necesario.' },
   ];
 
   return (
@@ -226,7 +226,7 @@ export function HowItWorks() {
             fontSize: 'clamp(32px, 3.5vw, 48px)', fontWeight: 700, lineHeight: 1.1,
             letterSpacing: '-0.025em', color: 'var(--fg-primary)', marginBottom: 16,
           }}>
-            De la auditoría a la puesta en marcha en 48 horas.
+            De la auditoría a una solución lista para tu negocio.
           </h2>
           <p style={{ fontSize: 18, color: 'var(--fg-secondary)', lineHeight: 1.55 }}>
             Un proceso directo, sin sorpresas. Empezamos con una llamada gratuita y, si encaja, lanzamos.
