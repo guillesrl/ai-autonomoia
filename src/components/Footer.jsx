@@ -72,7 +72,7 @@ export function Footer() {
           display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12,
         }}>
           <div>© 2026 Autonomo IA. Todos los derechos reservados.</div>
-          <div>Hecho con ❤ en Andorra</div>
+          <div><a href="https://portfolio.guillers.es/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline', textUnderlineOffset: 3 }}>Desarrollado por Guillers</a></div>
         </div>
       </div>
     </footer>
