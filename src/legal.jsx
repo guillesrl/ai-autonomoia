@@ -1,5 +1,4 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react';import { createRoot, hydrateRoot } from 'react-dom/client';
 import { Logo } from './components/Footer.jsx';
 import './styles.css';
 
@@ -118,5 +117,7 @@ export function LegalNoticePage() {
 }
 
 export function mountLegalPage(Page) {
-  createRoot(document.getElementById('root')).render(<Page />);
+  const root = document.getElementById('root');
+  if (root.hasChildNodes()) hydrateRoot(root, <Page />);
+  else createRoot(root).render(<Page />);
 }
